@@ -14,7 +14,6 @@ class Form1(Form1Template):
     self.init_components(**properties)
     self.arr = []
     self.btn_CreateArray.enabled = True
-    self.arr_merge = [0] * 10
 
   def ChangeState_button(self, i):
       self.btn_Bubble.enabled = i
